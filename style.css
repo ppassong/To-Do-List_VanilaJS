@@ -1,0 +1,177 @@
+@import "reset.css";
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #f5f5f5;
+    min-height: 100%;
+}
+
+.todo-wrapper {
+    justify-content: center;
+    margin-top: 3rem;
+    min-width: 600px;
+}
+
+.todo-title {
+    text-align: center;
+    font-size: 4rem;
+    color: olive;
+    padding: 1rem;
+}
+
+.todo-box {
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.todo-input-box {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 3rem;
+    border-bottom: 1px solid #ddd;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+.complete-all-button {
+    color: gray;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem 1rem;
+    border-radius: 100px;
+    font-size: 1.5rem;
+    min-width: none;
+    min-height: none;
+}
+
+.complete-all-button.checked {
+    color: green;
+}
+
+.todo-input{
+    border: 0;
+    width: 80%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.todo-item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 3rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-item:hover .delete-button {
+    opacity: 1;
+}
+
+.checkbox {
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50px;
+    border: 1px solid lightslategray;
+    text-align: center;
+    min-width: none;
+    min-height: none;
+    margin: 1rem;
+}
+
+.todo-item.checked .checkbox {
+    border: 2px solid darkgray;
+    color: green;
+}
+
+.todo-item.checked .checkbox {
+    border: 2px solid;
+}
+
+.todo {
+    font-size: 1.3rem;
+    width: 80%;
+    padding: 0 1rem;
+}
+
+.todo-item.checked .todo {
+    font-style: italic;
+    text-decoration: line-through;
+    color: lightgray;
+}
+
+.delete-button {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.todo-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 3rem;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.button-group {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.button-group button {
+    cursor: pointer;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    padding: 0.3rem 0.5rem;
+    margin: 0 0.5rem;
+}
+
+.button-group button.selected {
+    border: 2px solid rosybrown;
+    padding: 0.2rem 0.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.clear-completed-button:hover {
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.edit-input {
+    position: absolute;
+    width: 590px;
+    height: 2.8rem;
+    left: 0;
+    top: 0;
+    margin: 0;
+}
+
+p.info {
+    color: #ccc;
+    text-align: center;
+    margin-top: 1.5rem;
+}

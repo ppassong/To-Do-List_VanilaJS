@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo-list(VanilaJS)</title>
+</head>
+
+<body>
+    <div class="todo-wrapper">
+
+        <div class="todo-title">To-Do list</div>
+
+        <div class="todo-box">
+            <div class="todo-input-box">
+                <button class="complete-all-button">✔</button>
+                <input type="text" class="todo-input" placeholder="해야 할 일을 입력해주세요.(Enter)">
+            </div>
+            
+            <ul class="todo-list">
+                <!-- <li class="todo-item checked">
+                    <div class="checkbox">✔</div>
+                    <div class="todo">첫 번째 해야 할 일</div>
+                    <button class="delete-button">x</button>
+                </li>
+                <li class="todo-item">
+                    <div class="checkbox"></div>
+                    <div class="todo">두 번째 해야 할 일</div>
+                    <button class="delete-button">x</button>
+                </li>
+                <li class="todo-item">
+                    <div class="checkbox"></div>
+                    <div class="todo">세 번째 해야 할 일</div>
+                    <button class="delete-button">x</button>
+                </li> -->
+            </ul>
+
+            <div class="todo-bottom">
+                <div class="left-items">3개 항목 남음</div>
+                <div class="button-group">
+                    <button class="show-all-button selected" data-type="all">전체</button>
+                    <button class="show-active-button" data-type="active">예정</button>
+                    <button class="show-completed-button" data-type="completed">완료됨</button>
+                </div>
+                <button class="clear-completed-button">완료목록 지우기</button>
+            </div>
+        </div>
+        <p class="info">더블클릭 시 수정 가능</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
