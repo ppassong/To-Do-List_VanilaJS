@@ -18,7 +18,6 @@ https://woojong92.tistory.com/entry/JS-%EB%B0%94%EB%8B%90%EB%9D%BC-%EC%9E%90%EB%
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 <br>
 <br>
-<br>
 ## < 사용법 >
 <img width="600" alt="메인화면" src="https://github.com/ppassong/robofriends/assets/132435219/705f8b34-3b90-44a9-bcf5-0e97947f6333">
 <br>
