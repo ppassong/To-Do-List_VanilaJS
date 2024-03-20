@@ -18,6 +18,7 @@ https://woojong92.tistory.com/entry/JS-%EB%B0%94%EB%8B%90%EB%9D%BC-%EC%9E%90%EB%
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 <br>
 <br>
+<br>
 ## < 사용법 >
 <img width="600" alt="메인화면" src="https://github.com/ppassong/robofriends/assets/132435219/705f8b34-3b90-44a9-bcf5-0e97947f6333">
 <br>
@@ -44,6 +45,7 @@ https://woojong92.tistory.com/entry/JS-%EB%B0%94%EB%8B%90%EB%9D%BC-%EC%9E%90%EB%
 <img width="600" alt="체크표시로 목록 전부 체크하기" src="https://github.com/ppassong/robofriends/assets/132435219/c4e34a99-f7d1-46cd-8bac-802260a0bad5">
 <br>
 To-Do-List 상단 왼쪽에 녹색 체크 표시를 눌러서 리스트들을 전부 완료 처리 할 수도 있고 해제할 수도 있습니다.
+<br>
 <br>
 <br>
 
